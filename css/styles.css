@@ -1,0 +1,132 @@
+body {
+    width: 100%;
+    /* height: auto; */
+    background: radial-gradient(#e2ce99, #b9b7b2);
+}
+
+#title>h1 {
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    text-align: center;
+}
+
+#title>h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#img-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 3%;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border-style: ridge;
+    border-width: thick;
+    border-color: darkgray;
+    box-shadow: 10px 10px 20px 10px #271f06;
+}
+
+#img-caption {
+    padding-top: 10%;
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 2%;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    padding: 2%;
+}
+
+#polandDiv {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+#polandEagle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 20px 2px #271f06;
+}
+
+#quote-div {
+    width: 50%;
+}
+
+blockquote {
+    font-family: 'Raleway', cursive, sans-serif;
+    font-weight: 600;
+}
+
+blockquote::first-letter {
+    font-size: 2.5em;
+    padding-right: 8px;
+    float: left;
+    line-height: .7;
+}
+
+#signature {
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#more-info {
+    font-family: 'Raleway', cursive, sans-serif;
+    text-align: center;
+    padding-top: 9%;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5%;
+    clear: both;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+
+
+/* #background {
+    background-image: url('https://images.pexels.com/photos/207700/pexels-photo-207700.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+} */
